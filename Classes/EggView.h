@@ -1,12 +1,12 @@
 //
-//  SphereView.m
+//  EggView.m
 //
 //
 
 #import <UIKit/UIKit.h>
 #import "TexturedGeometryView.h"
 
-@interface SphereView : TexturedGeometryView 
+@interface EggView : TexturedGeometryView 
 {
     CGFloat red, green, blue, colorAlpha;
 }

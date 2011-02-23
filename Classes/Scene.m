@@ -11,7 +11,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import "SphereBackgroundView.h"
 #import "GroundPlaneView.h"
-#import "SphereView.h"
+#import "EggView.h"
 
 @implementation Scene
 
@@ -71,7 +71,7 @@
                                                          altitude:0 
                                                             title:title 
                                                          subtitle:subtitle 
-                                                  markerViewClass:[SphereView class]
+                                                  markerViewClass:[EggView class]
                                                        properties:nil];
                 
         
@@ -100,9 +100,9 @@
 
 - (void) addBackground
 {
-    SphereBackgroundView *sphereView = [[SphereBackgroundView alloc] initWithTextureNamed:@"sky2.png"];
-    self.sphereBackground = [self addFixtureWithView:sphereView];
-    [sphereView release];
+    SphereBackgroundView *EggView = [[SphereBackgroundView alloc] initWithTextureNamed:@"sky2.png"];
+    self.sphereBackground = [self addFixtureWithView:EggView];
+    [EggView release];
 }
 
 - (void) addGroundPlane

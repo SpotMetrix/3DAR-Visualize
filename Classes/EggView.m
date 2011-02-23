@@ -1,12 +1,12 @@
 //
-//  SphereView.m
+//  EggView.m
 //
 //
 
 #import <OpenGLES/ES1/gl.h>
-#import "SphereView.h"
+#import "EggView.h"
 
-@implementation SphereView
+@implementation EggView
 
 - (UIColor *) randomColor 
 {

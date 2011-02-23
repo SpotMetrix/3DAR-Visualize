@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* VisualizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* VisualizeViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* VisualizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* VisualizeViewController.m */; };
+		A607B7411315764E0070362C /* EggView.m in Sources */ = {isa = PBXBuildFile; fileRef = A607B7401315764E0070362C /* EggView.m */; };
 		A64543B312A4E4F40014F23C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64543B212A4E4F40014F23C /* CoreLocation.framework */; };
 		A64543B512A4E4F40014F23C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64543B412A4E4F40014F23C /* CoreMotion.framework */; };
 		A64543B712A4E4F40014F23C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64543B612A4E4F40014F23C /* MapKit.framework */; };
@@ -38,7 +39,6 @@
 		A6B8DD2E12A50FF700FC02E0 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DD2D12A50FF700FC02E0 /* Scene.m */; };
 		A6B8DD9D12A51B5D00FC02E0 /* RoundedLabelMarkerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DD9512A51B5D00FC02E0 /* RoundedLabelMarkerView.m */; };
 		A6B8DD9E12A51B5D00FC02E0 /* SphereBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DD9812A51B5D00FC02E0 /* SphereBackgroundView.m */; };
-		A6B8DD9F12A51B5D00FC02E0 /* SphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DD9A12A51B5D00FC02E0 /* SphereView.m */; };
 		A6B8DDA012A51B5D00FC02E0 /* TexturedGeometryView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DD9C12A51B5D00FC02E0 /* TexturedGeometryView.m */; };
 		A6B8DDA312A51B7E00FC02E0 /* GroundPlaneView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DDA212A51B7E00FC02E0 /* GroundPlaneView.m */; };
 		A6B8DDB412A51BE100FC02E0 /* ground1_1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6B8DDA812A51BE100FC02E0 /* ground1_1024.jpg */; };
@@ -70,6 +70,8 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Visualize_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visualize_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Visualize-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Visualize-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A607B73F1315764E0070362C /* EggView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EggView.h; sourceTree = "<group>"; };
+		A607B7401315764E0070362C /* EggView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EggView.m; sourceTree = "<group>"; };
 		A64543B212A4E4F40014F23C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A64543B412A4E4F40014F23C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		A64543B612A4E4F40014F23C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -105,8 +107,6 @@
 		A6B8DD9612A51B5D00FC02E0 /* RoundedLabelMarkerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedLabelMarkerView.h; sourceTree = "<group>"; };
 		A6B8DD9712A51B5D00FC02E0 /* SphereBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereBackgroundView.h; sourceTree = "<group>"; };
 		A6B8DD9812A51B5D00FC02E0 /* SphereBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereBackgroundView.m; sourceTree = "<group>"; };
-		A6B8DD9912A51B5D00FC02E0 /* SphereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereView.h; sourceTree = "<group>"; };
-		A6B8DD9A12A51B5D00FC02E0 /* SphereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereView.m; sourceTree = "<group>"; };
 		A6B8DD9B12A51B5D00FC02E0 /* TexturedGeometryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TexturedGeometryView.h; sourceTree = "<group>"; };
 		A6B8DD9C12A51B5D00FC02E0 /* TexturedGeometryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TexturedGeometryView.m; sourceTree = "<group>"; };
 		A6B8DDA112A51B7E00FC02E0 /* GroundPlaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundPlaneView.h; sourceTree = "<group>"; };
@@ -152,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				A6B8DCEB12A509BF00FC02E0 /* Constants.h */,
+				A607B73F1315764E0070362C /* EggView.h */,
+				A607B7401315764E0070362C /* EggView.m */,
 				A6B8DDA112A51B7E00FC02E0 /* GroundPlaneView.h */,
 				A6B8DDA212A51B7E00FC02E0 /* GroundPlaneView.m */,
 				A6B8DD9512A51B5D00FC02E0 /* RoundedLabelMarkerView.m */,
@@ -160,8 +162,6 @@
 				A6B8DD2D12A50FF700FC02E0 /* Scene.m */,
 				A6B8DD9712A51B5D00FC02E0 /* SphereBackgroundView.h */,
 				A6B8DD9812A51B5D00FC02E0 /* SphereBackgroundView.m */,
-				A6B8DD9912A51B5D00FC02E0 /* SphereView.h */,
-				A6B8DD9A12A51B5D00FC02E0 /* SphereView.m */,
 				A6B8DD9B12A51B5D00FC02E0 /* TexturedGeometryView.h */,
 				A6B8DD9C12A51B5D00FC02E0 /* TexturedGeometryView.m */,
 				A6B8DCE812A5083200FC02E0 /* URLFetchOperation.h */,
@@ -386,9 +386,9 @@
 				A6B8DD2E12A50FF700FC02E0 /* Scene.m in Sources */,
 				A6B8DD9D12A51B5D00FC02E0 /* RoundedLabelMarkerView.m in Sources */,
 				A6B8DD9E12A51B5D00FC02E0 /* SphereBackgroundView.m in Sources */,
-				A6B8DD9F12A51B5D00FC02E0 /* SphereView.m in Sources */,
 				A6B8DDA012A51B5D00FC02E0 /* TexturedGeometryView.m in Sources */,
 				A6B8DDA312A51B7E00FC02E0 /* GroundPlaneView.m in Sources */,
+				A607B7411315764E0070362C /* EggView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
